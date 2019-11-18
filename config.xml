@@ -74,6 +74,7 @@
     <preference name="phonegap-version" value="cli-9.0.0" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="28" />
+    <preference name="android-build-tool" value="gradle" />
 
     <engine name="android" spec="^9.0.0" />
     <engine name="ios" spec="^5.0.1" />
@@ -85,6 +86,9 @@
     <plugin name="cordova-plugin-file-transfer" spec="~1.5.0" />
     <plugin name="com-sarriaroman-photoviewer" source="npm" spec="~1.2.1" />
     <plugin name="cordova-plugin-device" />
+    <plugin name="cordova-plugin-admobpro" source="npm">
+        <variable name="PLAY_SERVICES_VERSION" value="16.0.0" />
+    </plugin>
 
     <edit-config file="*-Info.plist" mode="overwrite" target="NSPhotoLibraryUsageDescription">
         <string>Se accede a la Librería de Imágenes con la finalidad de enviar imágenes  desde el dispositivo al servidor de la aplicación. De ese modo el usuario podrá disponer de sus imágenes en cualquier dispositivo desde el que se conecte a su cuenta.</string>
