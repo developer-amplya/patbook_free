@@ -54,8 +54,6 @@
     import {
         API_PATH
     } from '../../config.js';
-    // import {mapActions} from 'vuex';
-    //import {banner} from 'cordova-plugin-admob-free/admob';
 
     export default {
         name: 'LogIn',
@@ -74,14 +72,15 @@
         mounted() {
             //console.log('-> LogIn');
 
+            // ADMOB
             admob.banner.config({
                 id: 'ca-app-pub-3279001848353929/2986845556',
             })
 
-// Create banner
+            // Create banner
             admob.banner.prepare()
 
-// Show the banner
+            // Show the banner
             admob.banner.show()
 
 
