@@ -72,16 +72,8 @@
         mounted() {
             //console.log('-> LogIn');
 
-            // ADMOB
-            admob.banner.config({
-                id: 'ca-app-pub-3279001848353929/2986845556',
-            })
-
-            // Create banner
-            admob.banner.prepare()
-
             // Show the banner
-            admob.banner.show()
+            admob.banner.show();
 
 
             if (!localStorage.allowed_users) {

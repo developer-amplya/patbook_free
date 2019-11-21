@@ -109,17 +109,6 @@
             if (this.getUserProfileImg !== '') {
                 this.$refs.userProfileImg.src = USER_IMAGES_PATH + this.getUserProfileImg;
             }
-
-            // ADMOB
-            admob.banner.config({
-                id: 'ca-app-pub-3279001848353929/2986845556',
-            })
-
-            // Create banner
-            admob.banner.prepare()
-
-            // Show the banner
-            admob.banner.show()
         }
     };
 </script>
