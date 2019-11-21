@@ -75,7 +75,7 @@
             //console.log('-> LogIn');
 
             admob.banner.config({
-                id: 'ca-app-pub-3940256099942544/6300978111',
+                id: 'ca-app-pub-3279001848353929/2986845556',
             })
 
 // Create banner

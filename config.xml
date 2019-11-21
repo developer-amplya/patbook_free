@@ -88,7 +88,7 @@
     <plugin name="cordova-plugin-device" />
     <plugin name="cordova-plugin-admob-free" source="npm">
         <variable name="PLAY_SERVICES_VERSION" value="17.0.0" />
-        <variable name="ADMOB_APP_ID" value="ca-app-pub-3940256099942544/6300978111" />
+        <variable name="ADMOB_APP_ID" value="ca-app-pub-3279001848353929/2986845556" />
     </plugin>
 
     <edit-config file="*-Info.plist" mode="overwrite" target="NSPhotoLibraryUsageDescription">
