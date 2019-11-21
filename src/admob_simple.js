@@ -1,4 +1,4 @@
-var admobid = {};
+var admobid = {}; console.log('test');
 
 // TODO: replace the following ad units with your own
 if (/(android)/i.test(navigator.userAgent)) {

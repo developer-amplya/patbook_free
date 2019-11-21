@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Patbook",
+  "short_name": "Patbook",
+  "version": "es.patbook.app.free",
+  "author": "El Artesano de Ideas",
+  "icons": [],
+  "start_url": "index.html",
+  "theme_color": "#2196f3"
+}

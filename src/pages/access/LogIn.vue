@@ -55,6 +55,7 @@
         API_PATH
     } from '../../config.js';
     // import {mapActions} from 'vuex';
+    //import {banner} from 'cordova-plugin-admob-free/admob';
 
     export default {
         name: 'LogIn',
@@ -72,6 +73,17 @@
         },
         mounted() {
             //console.log('-> LogIn');
+
+            admob.banner.config({
+                id: 'ca-app-pub-3940256099942544/6300978111',
+            })
+
+// Create banner
+            admob.banner.prepare()
+
+// Show the banner
+            admob.banner.show()
+
 
             if (!localStorage.allowed_users) {
                 localStorage.allowed_users = JSON.stringify([]);
